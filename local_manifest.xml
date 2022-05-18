@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-
+        
         <remote name="profile"
         fetch="https://github.com/ugly-saifu" />
         
@@ -10,7 +10,7 @@
         <project path="hardware/qcom-caf/msm8996/display" name="display" remote="vesh" revision="main" />
         <remote name="vesh"
           fetch="https://github.com/veshrao" />
-        
+       
         <!-- Sync trees -->
         <project path="device/asus/X01AD" name="Device-asus-X01AD" remote="profile" revision="lineage-19.0-back" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="profile" revision="R-latest" />
